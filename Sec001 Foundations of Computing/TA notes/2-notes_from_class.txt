@@ -1,0 +1,426 @@
+June 1, 2015
+
+1: take the not-a-quiz
+
+	Answer key:
+
+	1) Given the following code, what is the output?
+
+		>>> i = 5
+		>>> print 5 * 5
+		25
+		>>> print i
+		5
+		>>> print "cat" + "dog"
+		catdog
+		>>> print "cat", "dog"
+		cat dog
+
+	2a) The code below doesn't work. Why not?
+
+		>>> print 5 + "5"
+		Traceback (most recent call last):
+		  File "<stdin>", line 1, in <module>
+		TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+	2b) There are several ways to make it work! Give two possible changes and what the output would be in each case.
+
+		>>> print 5 + int("5")
+		10
+		>>> print str(5) + "5"
+		55
+
+	3) What is wrong with the following if statement?
+		if n = 2:
+		    print "Two"
+
+	It should be
+		if n == 2:
+		    print "Two"
+
+	4) Given the following code, what would the output be for n = 0,10,-1,3, and -5?
+
+		print n
+		if n > 0:
+		    print "A"
+		    if n >= 3:
+		        print "B"
+		        print "C"
+		    elif n > 2:
+		        print "D" # This is never executed
+		    else:
+		        print "E"
+		elif 1 > n > -2:
+		    print "F"
+		else:
+		    print "G"
+
+		if n < 5:
+		    print "H"
+
+	This is the output for n = 0:
+		0
+		F
+		H
+
+	This is the output for n = 10:
+		10
+		A
+		B
+		C
+
+	This is the output for n = -1:
+		-1
+		F
+		H
+
+	This is the output for n = 3:
+		3
+		A
+		B
+		C
+		H
+
+	This is the output for n = -5:
+		-5
+		G
+		H
+
+
+2: open terminal/babun
+
+	type 
+		ipython
+	to get into interactive python mode
+	(if it doesn't work, just type python)
+
+	to leave, type
+		exit()
+
+
+3:
+	In Sublime Text,
+
+	save in your Lede directory as class2.py
+	(good practice not to put spaces in file names)
+
+	type & save
+		print "Hello again"
+
+	In terminal/babun,
+
+	move to your Lede directory
+	(pwd, ls, cd from last class are your friends)
+	run the python code
+		python class2.py
+
+
+4: PYTHON DICTIONARY
+	Create them using curly braces, colons, commas
+	The elements of a dictionary are key-value pairs; you can "look up" the keys to get the values
+
+	In Sublime Text,
+	type
+		name = 'Soma Somsbury'
+		city = 'Manhattan'
+		age = 999
+
+		# dictionary
+		me = { 'name':'Soma', 'city':'Brooklyn', 'age':32 }
+
+		# printing a dictionary & printing elements from a dictionary
+		print me
+
+		print "========================"
+		print me['name']
+		print name
+
+		print "========================"
+		print me['city']
+		print city
+
+		print "========================"
+		print me['age']
+		print age
+
+		print "========================"
+		print "Four years ago I was",me['age'] - 4
+
+	In the terminal/Babun,
+	you get the output
+		{'city': 'Brooklyn', 'age': 32, 'name': 'Soma'}
+		========================
+		Soma
+		Soma Somsbury
+		========================
+		Brooklyn
+		Manhattan
+		========================
+		32
+		999
+		========================
+		Four years ago I was 28
+
+
+5: If you try to look up a key that doesn't exist, you can an error
+
+	In Sublime Text,
+	add
+		me['hometown']
+
+	In the terminal/Babun,
+	you get
+		Traceback (most recent call last):
+		  File "<stdin>", line 1, in <module>
+		KeyError: 'hometown'
+
+
+6: Adding elements to a dictionary
+
+	In Sublime Text,
+	add
+		me['pet'] = '2 cats' # adds 'pet':'2 cats' to the dictionary
+		print "I own",me['pet']
+		print me
+
+	In the terminal/Babun,
+	you get the additional output
+		I own 2 cats
+		{'pet': '2 cats', 'city': 'Brooklyn', 'age': 32, 'name': 'Soma'}
+
+
+7: You can't have two key-value pairs with the same key
+
+	In Sublime Text,
+	type
+		presidents = {
+			'Obama':2009,
+			'Bush':2001,
+			'Clinton':1993,
+			'Bush':1989, # overrides 'Bush':2001 above
+			'Reagan':1981,
+			'Carter':1977
+		}
+		print "Obama became president in",presidents['Obama']
+		print "Bush became president in",presidents['Bush']
+
+	In the terminal/Babun,
+	you get the output
+		Obama became president in 2009
+		Bush became president in 1989
+
+
+8: Get a list of keys from a Python dictionary
+
+	In Sublime Text,
+	add
+		print presidents.keys()
+
+	In the terminal/Babun,
+	you get the additional output
+		['Reagan', 'Bush', 'Clinton', 'Carter', 'Obama']
+
+
+9: Checking the type of the variables
+
+	In Sublime Text,
+	add
+		print type( presidents )
+		print type( presidents.keys() )
+
+	In the terminal/Babun,
+	you get the additional output
+		<type 'dict'>
+		<type 'list'>
+
+
+10: PYTHON LIST (an array in any other programming language)
+	Create them using square braces, commas
+	You can get the values by a number index
+
+	In Sublime Text,
+	add
+		president_names = presidents.keys()
+
+		# printing a list & printing elements from a list
+		print president_names
+		print president_names[0] # count from 0
+		print president_names[1] # count from 0
+		print president_names[2] # count from 0
+
+	In the terminal/Babun,
+	you get the additional output
+		['Reagan', 'Bush', 'Clinton', 'Carter', 'Obama']
+		Reagan
+		Bush
+		Clinton
+
+
+11: Get how many elements there are in a list
+
+	In Sublime Text,
+	type
+		years = [0, 4, 20, 6, 0, 20, 5, 1, 3, 1, 0, 7, 2, 1.5, 11, 0, 15, 2, 2, 10, 0]
+		print type( years )
+		print "There are",len( years ),"elements in years"
+
+	In the terminal/Babun,
+	you get 
+		<type 'list'>
+		There are 21 elements in years
+
+12: Get the last element of a list
+
+	In Sublime Text,
+	add
+		print "The last number in the list is",years[20] # count from 0
+		print "The last number in the list is",years[ len( years )-1 ] # count from 0 # off-by-one error
+		print "The last number in the list is",years[-1]
+
+	In the terminal/Babun,
+	you get the additional output
+		The last number in the list is 0
+		The last number in the list is 0
+		The last number in the list is 0
+
+
+13: Get the maximum/mininum value of a list
+
+	In Sublime Text,
+	add
+		print "The maximum value is",max( years )
+		print "The minimum value is",min( years )
+
+	In the terminal/Babun,
+	you get the additional output
+		The maximum value is 20
+		The minimum value is 0
+
+
+14: Get the sum of the values of a list
+
+	In Sublime Text,
+	add
+		print "If I add together all the values I have",sum( years )
+
+	In the terminal/Babun,
+	you get the additional output
+		If I add together all the values I have 110.5
+
+
+15: Get the mean of the values of a list
+	The mean is the arithmetic average
+
+	In Sublime Text,
+	add
+		print "An average of the years is",sum( years ) / len( years )
+		# Or,
+		from numpy import mean
+		print "An average of the years is",mean( years )
+
+	In the terminal/Babun,
+	you get the additional output
+		An average of the years is 5.2619047619
+		An average of the years is 5.2619047619
+
+
+16: Sorting the values of a list
+
+	FUNCTIONS & METHODS
+	Functions
+		print len( "Hello" ) # len() is a function
+	Methods: A method does something to itself
+		print "Hello".upper() # .upper() is a method
+
+	In Sublime Text,
+	add
+		# Sorting a list with the function sorted()
+		sorted_years = sorted( years )
+		print "Here are the years sorted:",sorted_years
+		print "years is still unsorted:",years
+
+		print "========================"
+		
+		# Sorting a list with the method .sort()
+		sorted_years = years.sort()
+		print sorted_years
+		print years
+
+	In the terminal/Babun,
+	you get the additional output
+		Here are the years sorted: [0, 0, 0, 0, 0, 1, 1, 1.5, 2, 2, 2, 3, 4, 5, 6, 7, 10, 11, 15, 20, 20]
+		years is still unsorted: [0, 4, 20, 6, 0, 20, 5, 1, 3, 1, 0, 7, 2, 1.5, 11, 0, 15, 2, 2, 10, 0]
+		========================
+		None
+		[0, 0, 0, 0, 0, 1, 1, 1.5, 2, 2, 2, 3, 4, 5, 6, 7, 10, 11, 15, 20, 20]
+
+
+17: Get the median of the values of a list
+	The median is the middle value
+
+	In Sublime Text,
+	add
+		print "The median of the years is",sorted( years )[10] # count from 0
+		# Or,
+		from numpy import median
+		print "The median of the years is",median( years )
+
+	In the terminal/Babun,
+	you get the additional output
+		The median of the years is 2
+		The median of the years is 2.0
+
+
+18: Adding elements to a list
+
+	In Sublime Text,
+	type
+		colors = [ 'red','blue','yellow','green' ]
+		print colors
+		colors.append( 'purple' )
+		print colors
+
+	In the terminal/Babun,
+	you get the output
+		['red', 'blue', 'yellow', 'green']
+		['red', 'blue', 'yellow', 'green', 'purple']
+
+
+19: FOR LOOPS
+
+	In Sublime Text,
+	add
+		favorite_color = "blue"
+		for color in colors:
+			print color
+			print color,"is",len( color ),"letters long"
+			if color == favorite_color:
+				print "That's my favorite color too!"
+
+	In the 1st loop, color = 'red'
+	In the 2nd loop, color = 'blue'
+	In the 3rd loop, color = 'yellow'
+	In the 4th loop, color = 'green'
+	In the 5th loop, color = 'purple'
+
+	In the terminal/Babun,
+	you get the additional output
+		red
+		red is 3 letters long
+		blue
+		blue is 4 letters long
+		That's my favorite color too!
+		yellow
+		yellow is 6 letters long
+		green
+		green is 5 letters long
+		purple
+		purple is 6 letters long
+
+
+====== ====== ====== ====== ====== ====== ====== ======
+STUFF MENTIONED IN CLASS
+
+Practice googling.
+
+DRY: Don't Repeat Yourself

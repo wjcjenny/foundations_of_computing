@@ -1,0 +1,225 @@
+########################################################################
+Do Now
+Monday, July 13, 2015
+
+Reviewing: Googling for tools
+
+1) What's a good site for browsing Unicode characters?
+
+	Googlin' `browse unicode characters`
+	http://unicode-table.com/en/
+	You probably will never have to browse unicode characters though.
+
+
+2) I need to make a simple chart, but I'm not allowed to use Excel. What should I use?
+
+	http://quartz.github.io/Chartbuilder/
+	Paste your data as text into the little text area, and bam! you have a graph.
+	Downloadable as an image or an SVG.
+
+		SVG (scalable vector graphic): image made up of formulas for lines and shapes, etc. (as opposed to an image made up of pixels).
+
+	Datawrapper
+	https://datawrapper.de/chart/sIC5q/upload
+	Embeddable. You can also take a screenshot.
+
+	Plot.ly
+
+	http://echarts.baidu.com/index-en.html interactive chart builder developed by Baidu
+	(Courtesy of Mr. Tian Chuan)
+
+
+3) I need to spend a few months learning something to make custom interactive visualizations. What language/library?
+
+	JavaScript, D3.js
+	* tutorial: alignedleft.com
+	* codecademy (generally bad but good enough for learning HTML, CSS, JavaScript)
+	Processing (not really an industry standard)
+
+
+	* Don't learn Perl or Flash
+	* You know Python, so Ruby will be easy + Python has a library for everything
+	* For the web, learn JavaScript (+HTML,CSS)
+	* C++/C/Java
+
+	* For terabytes of data, you would want Google BigQuery, Hadoop, 
+		e.g. Someone scraped all the comments on Reddit and put it on Google BigQuery
+		GBQ gives you 1 terabyte of data every month, which is about 4 queries a month for a database this size, 
+	* SQL (a query language, not a programming language)
+		# For example in Python,
+		for row in billion_rows:
+			row['name'] == 'Max'
+		# will be incredibly slow and maybe impossible
+
+		# Instead in SQL,
+		SELECT COUNT(*) 
+		FROM dogs 
+		WHERE name = 'Max'
+
+
+4) I need to do data analysis using Python. What are some packages that might be useful?
+
+	For text data (natural language processing),
+		Python's NLTK (natural language toolkit) library
+	For PDF,
+		Tabula (free) (super slow but faster than typing it out yourself)
+		Cometdocs (NOT free, but https://www.ire.org/blog/ire-news/2013/05/22/ire-announces-partnership-cometdocs/)
+		pdftotext (command-line tool) (for pdf with text NOT text images)
+	For OCR (optical character recognition; turns text images into text),
+		Tesseract (command-line tool)
+		ABBYY FineReader, http://www.abbyy.com/finereader/
+
+		OpenRefine (good for faceting, clustering)
+		fuzzy (Python library)
+		Pandas (R in Python)(youcan use metaphone in Pandas like in OpenRefine)
+		numpy (MATLAB in Python)
+		scipy, http://www.scipy.org/ (all the )
+		openCV (computer vision)
+
+
+		SENSOR JOURNALISM
+		Arduino
+
+		https://www.propublica.org/nerds/item/reporting-from-the-youngest-land-in-the-world
+		propublica, public lab
+
+
+5) My computer isn't powerful enough! What service can I use to get a brand new powerful "computer" without actually buying one?
+	EC2 from Amazon Web Services
+
+
+5) I need to clean data, these addresses are a wreck. What tool do I use to clean them up?
+	OpenRefine aka Google Refine (nothing else is nearly as good)
+
+
+5) What's the process of converting them to latitude and longitude called? 
+	geocoding
+
+	What tool do I use to geocode? It depends.
+	geocoder.io
+	Digital Social Science Center at Columbia, http://library.columbia.edu/locations/dssc.html (has an awesome computer lab that will help you with big mapping projects) (good geocoding service) (in the basement of Butler? library) (These guys have ArcGIS)
+	(courtesy of Mr. Roger Miller)
+
+
+6) I have a huge CSV and need to make some changes to it (removing columns, merging with another CSV, etc). What command-line tool might help me?
+
+	Pandas (Python library)
+	csvkit (command-line tool)
+
+
+7) A web page doesn't have an API, but I need to get the data from it anyway. What's that process called? What do I use?
+	scraping
+
+	beautifulsoup (Python library)
+	lxml (Python library)
+	import.io
+	kimonolabs.com
+
+
+9) I need to make some charts that help me browse through my data. I don't want to use Python or anything too programming-y, is there a tool that might be helpful?
+	Tableau (official tutorials are better than others)
+
+
+10) I need do some intense geographic data analysis. What do I use?
+
+	geopandas (Python library)
+
+	ArcGIS (if you have a Windows machine and you're richer than God)
+
+	QGIS (if you DON'T have a Windows machine and you're broke) (DOESN'T make embeddable maps for the web)
+
+	D3 (embeddable maps for the web)
+
+	CartoDB, https://cartodb.com/ (embeddable maps for the web)
+
+	Mapbox, tilemill
+
+	lots of JavaScript libraries: mapbox.js, mapbox-gl.js, cartodb.js (don't really need to use cool JavaScript tricks)
+
+	http://visualizing.nyc/bay-area-zip-codes-singles-map/
+
+	Google Fusion Tables
+
+
+11) I apparently need to learn and use a "relational, SQL database." Which do I pick?
+
+	MySQL (reigning champion of the SQL world)
+	PostgreSQL (does everything MySQL does but better)
+		To install, download Postgres.app
+	PostGIS
+	SQLite
+
+	CLSQL?
+	Access (DON'T EVER DO THIS)
+
+And give me an example of a non-SQL database if you're feeling a little wild.
+	
+	NoSQL databases:
+	MongoDB
+	CouchDB
+
+	You can say SQL either "sequel" or "S-Q-L"
+
+
+WAYS TO FIND A STORY IN DATA:
+
+Working backwards from a headline: To write a headline like "_____ is the murder capital of NYC", break down your dataset into zipcodes and count the number of murders
+Start from a hypothesis, answer questions
+
+I wanna make a map!
+EDA (exploratory data analysis)
+looking for maxes, mins, and averages
+finding the outliers
+
+
+TALK TO PEOPLE
+
+
+RULE OF 3 PROJECTS: Do 3 projects, and you can get a job
+
+
+
+########################################################################
+CartoDB, https://cartodb.com/ (maps for the web)
+
+	CRI (coordinate reference system):
+
+
+1: Sign up or sign in
+
+2: top left, Maps > Your datasets
+on cartodb go to /dashboard/datasets/library
+
+3: Download the csv from Slack;
+drag & drop it into CartoDB
+
+4: We see a spreadsheet on `data view`
+Click on `map view` for the map version
+
+5: Change the background map on the toppish left
+
+6: right-hand bar, paintbrush icon for "wizards"
+Click `heat map`
+We get "NYC has a lot of accidents" and we're like "Thanks a lot"
+Adjust slider values
+
+7: `data view` > Change column names
+Back in `map view`
+right-hand bar, paintbrush icon for "wizards"
+Click `categories`
+Change column to the re-named column name
+
+Get rid of unwanted :
+You could click the `SQL` icon
+You could click the `filters` icon that looks like a bar chart
+And select the column,
+then UN-select the entries you don't want
+
+
+########################################################################
+QGIS
+
+New data
+add nyc.json, census tracts 
+	geojson.io
+	you draw on a map and it gives you a json

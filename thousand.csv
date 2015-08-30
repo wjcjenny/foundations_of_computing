@@ -1,0 +1,500 @@
+dog_name,gender,breed,birth,dominant_color,secondary_color,third_color,spayed_or_neutered,guard_or_trained,borough,zip_code
+Buddy,M,Afghan Hound,Jan-00,BRINDLE,BLACK,n/a,Yes,No,Manhattan,10003
+Nicole,F,Afghan Hound,Jul-00,BLACK,n/a,n/a,Yes,No,Manhattan,10021
+Abby,F,Afghan Hound,Nov-00,BLACK,TAN,n/a,Yes,No,Manhattan,10034
+Chloe,F,Afghan Hound,Jan-02,WHITE,BLOND,n/a,Yes,No,Manhattan,10024
+Jazzle,F,Afghan Hound,Oct-02,BLOND,WHITE,BLACK,Yes,No,Manhattan,10022
+Trouble,M,Afghan Hound,Jan-03,BLOND,WHITE,BLACK,Yes,No,Bronx,10472
+Grace,F,Afghan Hound,Jun-03,CREAM,n/a,n/a,Yes,No,Manhattan,10021
+Sisu,M,Afghan Hound,Oct-04,BLACK,WHITE,GRAY,No,No,Manhattan,10023
+Jakie,M,Afghan Hound,Feb-05,WHITE,n/a,n/a,No,No,Queens,11354
+Geo,M,Afghan Hound,Jan-07,ORANGE,WHITE,n/a,Yes,No,Bronx,10469
+Ginger,F,Afghan Hound,Jan-07,TAN,WHITE,n/a,Yes,No,Bronx,10473
+Misty,F,Afghan Hound,Jul-07,TAN,WHITE,BROWN,Yes,No,Bronx,10473
+Troy,M,Afghan Hound,Jul-09,BLOND,RUST,BLACK,Yes,No,Staten Island,10308
+Nick,M,Afghan Hound,Nov-09,BLACK,TAN,WHITE,No,No,Queens,11385
+Prince,M,Afghan Hound,Jan-10,TAN,BLOND,BLACK,Yes,No,Queens,11364
+KIKU-NO-HM,F,Akita,Jan-98,GRAY,WHITE,BLACK,Yes,No,Manhattan,10023
+Sasha,F,Akita,Jan-98,WHITE,BROWN,BLACK,Yes,No,Manhattan,10038
+Bernie,M,Akita,Jan-99,WHITE,TAN,BLACK,No,No,Queens,11373
+Coffee,F,Akita,Jan-99,BROWN,WHITE,n/a,Yes,No,Bronx,10457
+Elsa,n/a,Akita,Jan-99,TAN,BRINDLE,n/a,Yes,No,Brooklyn,11206
+Jason,M,Akita,Jan-99,BLACK,WHITE,n/a,Yes,No,Queens,11357
+Socrates,M,Akita,Jan-99,WHITE,RUST,BLACK,Yes,No,Queens,11423
+Suki,F,Akita,Jan-99,RUST,WHITE,BLACK,Yes,No,Staten Island,10309
+Angel,F,Akita,Sep-99,RUST,n/a,n/a,Yes,No,Staten Island,10310
+Aspen,F,Akita,Jan-00,BROWN,WHITE,n/a,Yes,No,Brooklyn,11235
+Bear,M,Akita,Jan-00,BLACK,WHITE,n/a,Yes,No,Queens,11420
+Buster,M,Akita,Jan-00,WHITE,BLACK,n/a,Yes,No,Queens,11421
+CHIYO-KYRA,F,Akita,Jan-00,BRINDLE,WHITE,n/a,Yes,No,Queens,11379
+Chula,F,Akita,Jan-00,WHITE,BROWN,n/a,Yes,No,Queens,11412
+Kita,F,Akita,Jan-00,RUST,TAN,BLACK,Yes,No,Brooklyn,11207
+Nicki,F,Akita,Jan-00,BLACK,WHITE,n/a,Yes,No,Bronx,10463
+Nikita,F,Akita,Jan-00,WHITE,BROWN,n/a,Yes,No,Queens,11357
+Ralph,M,Akita,Jan-00,TAN,WHITE,n/a,Yes,No,Queens,11362
+Rambo,M,Akita,Jan-00,TAN,WHITE,BLACK,No,No,Queens,11368
+Shoko,M,Akita,Feb-00,TAN,BLACK,WHITE,No,No,Brooklyn,11205
+Bear,M,Akita,Jan-01,BLOND,WHITE,n/a,No,No,Bronx,10473
+DARIUS,M,Akita,Jan-01,WHITE,TAN,BLACK,No,No,Queens,11372
+Lady,F,Akita,Jan-01,TAN,WHITE,BLACK,Yes,Yes,Queens,11377
+Oreo,F,Akita,Jan-01,BLACK,WHITE,n/a,Yes,No,Staten Island,10309
+Prince,M,Akita,Jan-01,BLOND,n/a,n/a,Yes,No,Queens,11372
+Sabastian,M,Akita,Jan-01,WHITE,BLACK,n/a,No,No,Manhattan,10002
+NICKO,F,Akita,Apr-01,TAN,BLACK,WHITE,Yes,No,Bronx,10467
+AKIRO,M,Akita,Jan-02,TAN,WHITE,BLACK,Yes,No,Bronx,10457
+Annie,F,Akita,Jan-02,WHITE,GRAY,n/a,Yes,No,Manhattan,10128
+King,M,Akita,Jan-02,BROWN,WHITE,TAN,Yes,No,Bronx,10469
+SCOOBYDORA,F,Akita,Jan-02,BROWN,BLACK,WHITE,No,No,Queens,11697
+TENSHI,F,Akita,Jan-02,TAN,BLACK,WHITE,Yes,No,Manhattan,10021
+Yuki,F,Akita,Jan-02,BLACK,WHITE,GRAY,No,No,Bronx,10455
+Grizz,M,Akita,Mar-02,RUST,n/a,n/a,No,No,Manhattan,10037
+Bear,M,Akita,Aug-02,WHITE,n/a,n/a,Yes,No,Manhattan,10028
+Sukiyaki,F,Akita,Oct-02,BRINDLE,WHITE,n/a,Yes,No,Manhattan,10024
+Amy,F,Akita,Jan-03,BROWN,BLACK,WHITE,Yes,No,Manhattan,10023
+Asia,F,Akita,Jan-03,BLACK,WHITE,TAN,Yes,No,Bronx,10466
+Laki,M,Akita,Jan-03,BLACK,WHITE,n/a,No,No,Queens,11385
+Lucy,F,Akita,Jan-03,WHITE,BLACK,n/a,Yes,No,Manhattan,10014
+Luna,F,Akita,Jan-03,WHITE,APRICOT,n/a,No,No,Brooklyn,11211
+Mugs,M,Akita,Jan-03,TAN,WHITE,BLACK,Yes,No,Staten Island,10312
+Nicki,M,Akita,Jan-03,WHITE,BROWN,n/a,No,No,Queens,11379
+PUKI,F,Akita,Jan-03,BLACK,WHITE,n/a,Yes,No,Queens,11421
+Star,n/a,Akita,Jan-03,WHITE,BROWN,n/a,Yes,No,Queens,11434
+Sydney,F,Akita,Jan-03,BROWN,WHITE,BLACK,Yes,No,Manhattan,10029
+Yoshi,F,Akita,Jan-03,BRINDLE,WHITE,n/a,Yes,No,Bronx,10470
+Babe,M,Akita,Jan-04,WHITE,BRINDLE,n/a,Yes,No,Queens,11356
+HEAVENSENT,F,Akita,Jan-04,BROWN,WHITE,BLACK,Yes,No,Queens,11375
+Kobi,F,Akita,Jan-04,BRINDLE,WHITE,GRAY,No,No,Bronx,10455
+Nikita,M,Akita,Jan-04,BRINDLE,n/a,n/a,Yes,No,Manhattan,10128
+Rocky,M,Akita,Jan-04,WHITE,TAN,BLACK,No,No,Queens,11362
+Romeo,M,Akita,Jan-04,BRINDLE,WHITE,n/a,Yes,No,Brooklyn,11234
+Tara,F,Akita,Jan-04,TAN,BLACK,WHITE,No,No,Manhattan,10009
+Tara,F,Akita,Jan-04,WHITE,n/a,n/a,Yes,No,Queens,11373
+Tasha,F,Akita,Jan-04,BROWN,n/a,n/a,Yes,No,Queens,11379
+Bella,F,Akita,Sep-04,BLACK,WHITE,TAN,Yes,No,Staten Island,10312
+Yoji,M,Akita,Nov-04,BLACK,WHITE,n/a,Yes,No,Queens,11355
+Tyson,M,Akita,Dec-04,WHITE,TAN,n/a,Yes,No,Queens,11693
+Cookie,F,Akita,Jan-05,BLACK,WHITE,TAN,Yes,No,Staten Island,10305
+Jax,M,Akita,Jan-05,BLACK,WHITE,GRAY,No,No,Queens,11379
+KELBY,M,Akita,Jan-05,BLACK,GRAY,WHITE,No,No,Brooklyn,11231
+Kiko,M,Akita,Jan-05,BROWN,WHITE,BLACK,No,No,Staten Island,10312
+n/a,F,Akita,Jan-05,BLOND,WHITE,n/a,No,No,Manhattan,10016
+Snowball,M,Akita,Jan-05,WHITE,BROWN,BLACK,No,No,Brooklyn,11212
+Bogie,M,Akita,Jun-05,BLACK,n/a,n/a,Yes,No,Bronx,10467
+WON,M,Akita,Jul-05,WHITE,BROWN,n/a,No,No,Queens,11104
+Ginger,F,Akita,Oct-05,WHITE,TAN,n/a,Yes,No,Brooklyn,11209
+Bear,M,Akita,Jan-06,BRINDLE,TAN,n/a,No,No,Brooklyn,11235
+Buddy,M,Akita,Jan-06,BLACK,TAN,n/a,No,No,Bronx,10470
+Coquito,M,Akita,Jan-06,TAN,n/a,n/a,Yes,No,Bronx,10465
+HENESSEY,F,Akita,Jan-06,BLACK,WHITE,n/a,Yes,No,Brooklyn,11219
+KICHI,F,Akita,Jan-06,BROWN,WHITE,BLACK,No,No,Brooklyn,11203
+Yogi,M,Akita,Jan-06,WHITE,BLACK,BROWN,No,No,Queens,11362
+Brandy,F,Akita,Mar-06,TAN,n/a,n/a,Yes,No,Queens,11379
+Chester,M,Akita,Sep-06,BLACK,n/a,n/a,Yes,No,Queens,11423
+Jazzy,F,Akita,Sep-06,BLOND,BLACK,WHITE,Yes,No,Queens,11423
+Seven,M,Akita,Oct-06,BLOND,TAN,n/a,Yes,No,Queens,11412
+KIRA-A,F,Akita,Nov-06,RUST,n/a,n/a,Yes,No,Brooklyn,11219
+Layla,F,Akita,Dec-06,BLACK,WHITE,TAN,Yes,No,Queens,11385
+Charlie,M,Akita,Jan-07,BRINDLE,BLACK,n/a,Yes,No,Brooklyn,11224
+Reggie,M,Akita,Jan-07,RUST,WHITE,BLACK,No,No,Brooklyn,11238
+Rocco,M,Akita,Jan-07,SILVER,BLACK,n/a,Yes,No,Staten Island,10305
+Saki,F,Akita,Jan-07,WHITE,BROWN,BLACK,Yes,No,Bronx,10452
+Stella,F,Akita,Jan-07,WHITE,BROWN,BLACK,Yes,No,Brooklyn,11215
+Mica,F,Akita,Feb-07,WHITE,BROWN,n/a,Yes,No,Staten Island,10310
+Bubba,M,Akita,Mar-07,BLACK,WHITE,BROWN,Yes,No,Brooklyn,11235
+Nelly,F,Akita,May-07,BLACK,TAN,BROWN,Yes,No,Manhattan,10011
+Hiroshi,M,Akita,Sep-07,WHITE,FAWN,BLACK,Yes,No,Queens,11418
+MATAGI,M,Akita,Sep-07,WHITE,BROWN,n/a,Yes,No,Brooklyn,11218
+Kimba,F,Akita,Oct-07,BROWN,WHITE,n/a,No,No,Bronx,10452
+Shiloh,F,Akita,Oct-07,WHITE,BLACK,n/a,Yes,No,Bronx,10473
+Arnie,M,Akita,Dec-07,TAN,WHITE,BLACK,Yes,No,Brooklyn,11223
+Gus,M,Akita,Jan-08,BLACK,GRAY,WHITE,Yes,No,Manhattan,10003
+Benny,M,Akita,Mar-08,BROWN,WHITE,n/a,Yes,No,Brooklyn,11228
+KC,F,Akita,Mar-08,BRINDLE,BLACK,WHITE,Yes,No,Brooklyn,11228
+Lucy,F,Akita,May-08,TAN,WHITE,BLACK,Yes,No,Staten Island,10308
+Roni,M,Akita,May-08,BLACK,WHITE,n/a,No,No,Queens,11385
+Shiro,M,Akita,Sep-08,WHITE,n/a,n/a,No,No,Manhattan,10013
+ROSKY,M,Akita,Oct-08,WHITE,BROWN,GRAY,No,No,Bronx,10463
+Saijin,M,Akita,Dec-08,WHITE,TAN,BLACK,Yes,No,Manhattan,10038
+Tank,M,Akita,Dec-08,BLACK,WHITE,BROWN,Yes,No,Staten Island,10308
+Yuki,F,Akita,Jan-09,RUST,TAN,WHITE,Yes,No,Queens,11418
+Winston,M,Akita,Feb-09,FAWN,BROWN,BLACK,Yes,No,Manhattan,10021
+Tobi,M,Akita,May-09,TAN,WHITE,BLACK,Yes,No,Queens,11432
+Lacy,F,Akita,Jun-09,BLACK,WHITE,BROWN,Yes,No,Bronx,10469
+Mink,M,Akita,Jun-09,ORANGE,BLACK,WHITE,No,No,Queens,11412
+GUNNY,M,Akita,Jul-09,BLACK,SILVER,WHITE,Yes,No,Queens,11435
+DOGEN,M,Akita,Oct-09,WHITE,BROWN,BLACK,Yes,No,Brooklyn,11249
+Chaka,F,Akita,Dec-09,BROWN,WHITE,n/a,No,No,Queens,11412
+Jade,F,Akita,Dec-09,WHITE,BLACK,BROWN,Yes,No,Queens,11354
+Milo,M,Akita,Dec-09,WHITE,FAWN,BLACK,Yes,No,Queens,11101
+Max,M,Akita,May-10,FAWN,WHITE,BLACK,No,No,Bronx,10459
+Roxy,F,Akita,May-10,FAWN,n/a,n/a,No,No,Bronx,10459
+Junior,M,Akita,Aug-10,BROWN,WHITE,n/a,Yes,No,Brooklyn,11234
+Lucky,M,Akita,Aug-10,FAWN,n/a,n/a,Yes,No,Queens,11362
+Lana,F,Akita,Sep-10,BLACK,BROWN,WHITE,No,No,Queens,11372
+Leo,M,Akita,Sep-10,BLACK,BROWN,WHITE,No,No,Queens,11372
+Major,M,Akita,Nov-10,BLACK,BROWN,WHITE,Yes,No,Manhattan,10036
+Sweetie,F,Akita,Nov-10,BROWN,BLACK,WHITE,No,No,Manhattan,10039
+Cruise,M,Akita,Jan-11,APRICOT,n/a,n/a,No,No,Brooklyn,11221
+Gucci,M,Akita,Apr-11,WHITE,BLACK,TAN,No,No,Queens,11102
+n/a,F,Akita,Oct-11,FAWN,WHITE,n/a,Yes,No,Queens,11368
+Princess,F,Akita,Oct-11,RED,WHITE,n/a,No,No,Queens,11422
+Hope,F,Akita,Nov-11,BRINDLE,n/a,n/a,No,No,Bronx,10462
+Willoughby,M,Akita Crossbreed,Jan-97,TAN,WHITE,BLACK,Yes,No,Manhattan,10029
+Keyma,F,Akita Crossbreed,Oct-97,BLOND,TAN,WHITE,Yes,No,Manhattan,10038
+Ben,M,Akita Crossbreed,Jan-98,BRINDLE,BLACK,n/a,Yes,No,Manhattan,10024
+Nikko,M,Akita Crossbreed,Jan-98,RUST,n/a,n/a,No,No,Queens,11414
+Blondie,F,Akita Crossbreed,Jan-99,BLOND,TAN,n/a,Yes,No,Brooklyn,11235
+Six,M,Akita Crossbreed,Jan-99,TAN,WHITE,BLACK,Yes,No,Brooklyn,11235
+Dina,F,Akita Crossbreed,Jan-00,WHITE,BLACK,n/a,Yes,No,Bronx,10469
+Kato,M,Akita Crossbreed,Jan-00,BLACK,BROWN,n/a,Yes,No,Bronx,10461
+Obe,M,Akita Crossbreed,Jan-00,BROWN,WHITE,n/a,Yes,No,Bronx,10467
+CHRITON,M,Akita Crossbreed,Jan-01,BLACK,WHITE,n/a,Yes,No,Queens,11370
+Anastasia,F,Akita Crossbreed,Jan-02,BROWN,WHITE,BLACK,Yes,No,Staten Island,10301
+KASHIMA,F,Akita Crossbreed,Jan-02,BRINDLE,WHITE,n/a,Yes,No,Manhattan,10021
+Aponte,M,Akita Crossbreed,Sep-02,BRINDLE,WHITE,n/a,Yes,No,Queens,11361
+Wynter,F,Akita Crossbreed,Nov-02,WHITE,n/a,n/a,Yes,No,Queens,11368
+Skittles,F,Akita Crossbreed,Jan-03,BRINDLE,WHITE,n/a,Yes,No,Brooklyn,11238
+Anna,F,Akita Crossbreed,Feb-03,RUST,TAN,n/a,Yes,No,Bronx,10469
+Buddy,M,Akita Crossbreed,Jan-04,BLACK,WHITE,n/a,Yes,No,Manhattan,10014
+Max,M,Akita Crossbreed,Jan-06,BROWN,BLACK,n/a,Yes,No,Queens,11354
+Rocky,M,Akita Crossbreed,Jan-06,BLUE,n/a,n/a,Yes,No,Bronx,10461
+Smokey,M,Akita Crossbreed,Jan-06,BLACK,n/a,n/a,Yes,No,Staten Island,10306
+Angel,F,Akita Crossbreed,Feb-06,WHITE,CREAM,n/a,Yes,No,Queens,11357
+Diamond,F,Akita Crossbreed,Feb-07,GOLD,WHITE,n/a,No,No,Queens,11370
+Evita,F,Akita Crossbreed,Sep-07,WHITE,BRINDLE,n/a,Yes,No,Brooklyn,11209
+Moon,F,Akita Crossbreed,Sep-07,WHITE,BROWN,n/a,Yes,No,Manhattan,10003
+April,F,Akita Crossbreed,Jun-08,RUST,GRAY,n/a,Yes,No,Brooklyn,11236
+Fred,M,Akita Crossbreed,Aug-08,BLACK,TAN,n/a,Yes,No,Manhattan,10040
+Tank,M,Akita Crossbreed,Dec-08,WHITE,BLOND,n/a,Yes,No,Manhattan,10013
+Lucky,M,Akita Crossbreed,Mar-09,BLACK,WHITE,TAN,No,No,Manhattan,10032
+Hangar,M,Akita Crossbreed,Mar-10,BLACK,WHITE,n/a,Yes,No,Manhattan,10024
+Askhim,M,Akita Crossbreed,Jun-10,BROWN,BLACK,WHITE,No,No,Brooklyn,11221
+Buddy,M,Akita Crossbreed,Jun-10,BLACK,GRAY,BROWN,No,No,Brooklyn,11221
+Olivia,F,Akita Crossbreed,Jun-10,BLACK,WHITE,n/a,Yes,No,Brooklyn,11249
+Oso,M,Akita Crossbreed,Jun-10,BLACK,BROWN,BRINDLE,No,No,Brooklyn,11221
+Ruger,F,Akita Crossbreed,Aug-10,BLOND,n/a,n/a,Yes,No,Manhattan,10021
+Achilles,M,Akita Crossbreed,Jul-11,BROWN,n/a,n/a,Yes,No,Staten Island,10302
+Theo,M,Akita Crossbreed,Nov-11,BLOND,BLACK,n/a,No,No,Manhattan,10128
+Marco,M,Akita Crossbreed,Jan-12,GOLD,RED,n/a,No,No,Queens,11355
+Amico,M,American Eskimo dog,Jan-92,WHITE,n/a,n/a,No,No,Staten Island,10312
+Tong,M,American Eskimo dog,Jan-93,WHITE,n/a,n/a,Yes,No,Brooklyn,11229
+Georgia,F,American Eskimo dog,Jan-96,WHITE,n/a,n/a,Yes,No,Manhattan,10025
+Missy,F,American Eskimo dog,Jan-96,WHITE,n/a,n/a,Yes,No,Bronx,10471
+Perry,M,American Eskimo dog,Jan-96,WHITE,n/a,n/a,Yes,No,Manhattan,10011
+Snowy,M,American Eskimo dog,Jan-96,WHITE,n/a,n/a,No,No,Manhattan,10128
+Angelique,F,American Eskimo dog,Jan-97,WHITE,BLOND,n/a,Yes,No,Manhattan,10012
+Cisco,M,American Eskimo dog,Jan-97,WHITE,n/a,n/a,Yes,No,Queens,11434
+Dakota,M,American Eskimo dog,Jan-97,WHITE,n/a,n/a,Yes,No,Manhattan,10013
+Ivory,F,American Eskimo dog,Jan-97,WHITE,n/a,n/a,Yes,No,Manhattan,10003
+Lady,F,American Eskimo dog,Jan-97,WHITE,TAN,n/a,Yes,No,Staten Island,10305
+Scobby,M,American Eskimo dog,Jan-97,WHITE,n/a,n/a,Yes,No,Queens,11372
+Angel,F,American Eskimo dog,Aug-97,WHITE,n/a,n/a,Yes,No,Brooklyn,11224
+FUZZBALL,F,American Eskimo dog,Jan-98,WHITE,n/a,n/a,Yes,No,Staten Island,10306
+Levi,M,American Eskimo dog,Jan-98,WHITE,n/a,n/a,Yes,No,Manhattan,10011
+Louis,M,American Eskimo dog,Jan-98,WHITE,n/a,n/a,Yes,No,Manhattan,10030
+Lucky,M,American Eskimo dog,Jan-98,WHITE,n/a,n/a,No,No,Brooklyn,11229
+Niki,M,American Eskimo dog,Jan-98,WHITE,n/a,n/a,Yes,No,Queens,11355
+Reilly,F,American Eskimo dog,Jan-98,WHITE,n/a,n/a,Yes,No,Manhattan,10026
+TRIBUTE,M,American Eskimo dog,Jan-98,WHITE,n/a,n/a,Yes,No,Manhattan,10017
+Sully,M,American Eskimo dog,May-98,WHITE,n/a,n/a,Yes,No,Bronx,10462
+Charley,M,American Eskimo dog,Jan-99,WHITE,n/a,n/a,Yes,No,Manhattan,10025
+DEOGEE,M,American Eskimo dog,Jan-99,WHITE,n/a,n/a,No,No,Brooklyn,11222
+Greta,F,American Eskimo dog,Jan-99,WHITE,n/a,n/a,Yes,No,Manhattan,10011
+Honey,F,American Eskimo dog,Jan-99,WHITE,n/a,n/a,No,No,Bronx,10467
+JJ,M,American Eskimo dog,Jan-99,WHITE,n/a,n/a,Yes,No,Staten Island,10312
+QUEENMARGO,F,American Eskimo dog,Jan-99,WHITE,n/a,n/a,Yes,No,Brooklyn,11235
+Roxie,F,American Eskimo dog,Jan-99,WHITE,n/a,n/a,Yes,No,Manhattan,10022
+Mitzi,F,American Eskimo dog,Nov-99,WHITE,n/a,n/a,Yes,No,Queens,11419
+Jasmine,F,American Eskimo dog,Dec-99,WHITE,CREAM,n/a,Yes,No,Manhattan,10024
+Angel,F,American Eskimo dog,Jan-00,WHITE,n/a,n/a,No,No,Staten Island,10301
+Cubby,M,American Eskimo dog,Jan-00,WHITE,n/a,n/a,Yes,No,Staten Island,10306
+Fluffy,M,American Eskimo dog,Jan-00,WHITE,n/a,n/a,Yes,No,Brooklyn,11234
+Malcolm,M,American Eskimo dog,Jan-00,WHITE,n/a,n/a,Yes,Yes,Queens,11356
+Misty,F,American Eskimo dog,Jan-00,WHITE,n/a,n/a,No,No,Staten Island,10305
+Nelson,M,American Eskimo dog,Jan-00,WHITE,n/a,n/a,Yes,No,Manhattan,10034
+Sheba,F,American Eskimo dog,Jan-00,WHITE,n/a,n/a,Yes,No,Manhattan,10016
+Snow,F,American Eskimo dog,Jan-00,WHITE,n/a,n/a,Yes,No,Staten Island,10314
+Sparky,M,American Eskimo dog,Jan-00,WHITE,n/a,n/a,No,No,Staten Island,10305
+Yuki,F,American Eskimo dog,Jan-00,WHITE,n/a,n/a,Yes,No,Queens,11415
+Chase,M,American Eskimo dog,Jun-00,WHITE,n/a,n/a,No,No,Queens,11373
+Spirit,M,American Eskimo dog,Jun-00,WHITE,n/a,n/a,Yes,No,Manhattan,10069
+Miko,F,American Eskimo dog,Aug-00,WHITE,GRAY,n/a,Yes,No,Manhattan,10028
+Sasha,F,American Eskimo dog,Nov-00,WHITE,n/a,n/a,Yes,No,Manhattan,10011
+ESKOMYBUDD,M,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Staten Island,10306
+Gunther,M,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Brooklyn,11228
+Jack,M,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Staten Island,10301
+Leopold,M,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Manhattan,10016
+MAJEY,F,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Brooklyn,11228
+Princess,F,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Bronx,10465
+Ricky,M,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Queens,11375
+SNOWBELLE,F,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Staten Island,10310
+Snowy,F,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Manhattan,10010
+Syrie,F,American Eskimo dog,Jan-01,WHITE,n/a,n/a,Yes,No,Manhattan,10022
+Toby,M,American Eskimo dog,Jan-01,WHITE,n/a,n/a,No,No,Manhattan,10034
+Max,M,American Eskimo dog,May-01,WHITE,n/a,n/a,Yes,No,Queens,11355
+Smoke,M,American Eskimo dog,Nov-01,WHITE,n/a,n/a,Yes,No,Bronx,10469
+Abbey,F,American Eskimo dog,Jan-02,WHITE,n/a,n/a,Yes,No,Staten Island,10305
+Banjo,M,American Eskimo dog,Jan-02,WHITE,n/a,n/a,Yes,No,Queens,11357
+Cheche,F,American Eskimo dog,Jan-02,WHITE,n/a,n/a,No,No,Brooklyn,11220
+Lily,F,American Eskimo dog,Jan-02,WHITE,n/a,n/a,Yes,No,Brooklyn,11231
+Lucky,M,American Eskimo dog,Jan-02,BROWN,BLACK,WHITE,Yes,No,Bronx,10456
+Molly,F,American Eskimo dog,Jan-02,TAN,n/a,n/a,Yes,No,Bronx,10465
+Spencer,M,American Eskimo dog,Jan-02,WHITE,n/a,n/a,Yes,No,Manhattan,10019
+Sam,M,American Eskimo dog,Aug-02,WHITE,CREAM,n/a,Yes,No,Staten Island,10302
+Alfie,M,American Eskimo dog,Jan-03,WHITE,n/a,n/a,No,No,Staten Island,10304
+China,F,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Brooklyn,11204
+Dice,M,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Manhattan,10023
+Foxy,F,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Queens,11101
+Lucy,F,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Staten Island,10312
+Major,M,American Eskimo dog,Jan-03,WHITE,n/a,n/a,No,No,Queens,11365
+Nemo,M,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Brooklyn,11211
+NOR,M,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Queens,11427
+PEACHIE,F,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Queens,11697
+Ruby,F,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Manhattan,10034
+Snowy,M,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Bronx,10465
+Tasha,F,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Queens,11375
+Toga,F,American Eskimo dog,Jan-03,WHITE,n/a,n/a,Yes,No,Queens,11106
+Lucky,M,American Eskimo dog,Jun-03,WHITE,BROWN,n/a,Yes,No,Staten Island,10308
+Cody,M,American Eskimo dog,Jul-03,WHITE,n/a,n/a,Yes,No,Staten Island,10306
+Angel,F,American Eskimo dog,Oct-03,WHITE,n/a,n/a,Yes,No,Manhattan,10009
+Balto,M,American Eskimo dog,Oct-03,WHITE,n/a,n/a,No,No,Bronx,10473
+Dakota,F,American Eskimo dog,Oct-03,WHITE,n/a,n/a,Yes,No,Staten Island,10314
+Snowball,M,American Eskimo dog,Nov-03,WHITE,n/a,n/a,Yes,No,Manhattan,10034
+Ice,F,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Staten Island,10309
+Jenna,F,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Manhattan,10021
+Koda,M,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Staten Island,10314
+LITTLEDUKE,M,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Bronx,10465
+MANDOO,M,American Eskimo dog,Jan-04,BLOND,WHITE,n/a,Yes,No,Staten Island,10314
+Nina,F,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Manhattan,10003
+Princess,F,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Manhattan,10002
+Snowbell,M,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Staten Island,10303
+Teddy,M,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Staten Island,10302
+Toby,M,American Eskimo dog,Jan-04,WHITE,n/a,n/a,Yes,No,Queens,11357
+Nieves,F,American Eskimo dog,Mar-04,WHITE,n/a,n/a,No,No,Bronx,10455
+Willa,F,American Eskimo dog,Mar-04,BLACK,WHITE,n/a,Yes,No,Brooklyn,11218
+Cody,M,American Eskimo dog,Apr-04,WHITE,n/a,n/a,No,No,Brooklyn,11232
+Hugo,M,American Eskimo dog,Jun-04,CREAM,WHITE,n/a,Yes,No,Brooklyn,11214
+Jasmine,F,American Eskimo dog,Jun-04,WHITE,TAN,n/a,Yes,No,Brooklyn,11219
+Lucky,M,American Eskimo dog,Aug-04,WHITE,n/a,n/a,Yes,No,Manhattan,10016
+Casanova,M,American Eskimo dog,Oct-04,WHITE,n/a,n/a,Yes,No,Manhattan,10003
+Lupa,F,American Eskimo dog,Nov-04,WHITE,n/a,n/a,Yes,No,Brooklyn,11201
+Snow,M,American Eskimo dog,Dec-04,WHITE,n/a,n/a,Yes,No,Brooklyn,11211
+Ah,F,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Brooklyn,11219
+Bella,F,American Eskimo dog,Jan-05,WHITE,TAN,n/a,Yes,No,Queens,11357
+BELOCHKA,F,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Brooklyn,11223
+Bobby,M,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Brooklyn,11220
+Misty,M,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Brooklyn,11214
+Pico,M,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Brooklyn,11224
+Prince,M,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Staten Island,10305
+Sake,F,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Queens,11364
+Sugar,M,American Eskimo dog,Jan-05,WHITE,n/a,n/a,Yes,No,Brooklyn,11214
+Brooklyn,F,American Eskimo dog,May-05,GRAY,WHITE,n/a,Yes,No,Manhattan,10021
+Scotty,M,American Eskimo dog,May-05,APRICOT,WHITE,n/a,Yes,No,Bronx,10473
+Rick,M,American Eskimo dog,Jun-05,WHITE,n/a,n/a,Yes,No,Staten Island,10302
+Lucky,M,American Eskimo dog,Aug-05,WHITE,n/a,n/a,Yes,No,Queens,11367
+Daisy,F,American Eskimo dog,Oct-05,WHITE,TAN,n/a,Yes,No,Staten Island,10312
+NELIAK,M,American Eskimo dog,Oct-05,WHITE,n/a,n/a,Yes,No,Brooklyn,11223
+Snowy,F,American Eskimo dog,Dec-05,WHITE,n/a,n/a,Yes,No,Queens,11421
+Wolf,M,American Eskimo dog,Dec-05,WHITE,n/a,n/a,No,No,Bronx,10473
+Blanco,M,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Staten Island,10305
+Joey,M,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Queens,11357
+Joey,M,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Staten Island,10308
+KAZI,M,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Brooklyn,11201
+L J LUCKY,M,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Queens,11365
+n/a,F,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Manhattan,10021
+Snoopy,M,American Eskimo dog,Jan-06,WHITE,n/a,n/a,No,No,Brooklyn,11223
+Snow,F,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Brooklyn,11219
+Tiffany,F,American Eskimo dog,Jan-06,WHITE,n/a,n/a,Yes,No,Staten Island,10309
+Cleopatra,F,American Eskimo dog,Mar-06,WHITE,TAN,BLOND,Yes,No,Manhattan,10011
+Snow,M,American Eskimo dog,Apr-06,WHITE,n/a,n/a,Yes,No,Queens,11693
+Alaska,M,American Eskimo dog,May-06,WHITE,TAN,n/a,Yes,No,Queens,11385
+Muki,F,American Eskimo dog,Jun-06,WHITE,n/a,n/a,Yes,No,Manhattan,10038
+Woofie,M,American Eskimo dog,Sep-06,WHITE,n/a,n/a,Yes,No,Queens,11370
+Q TIP,F,American Eskimo dog,Oct-06,WHITE,n/a,n/a,Yes,No,Queens,11364
+Eski,F,American Eskimo dog,Nov-06,WHITE,n/a,n/a,No,No,Staten Island,10304
+CJ,F,American Eskimo dog,Jan-07,WHITE,n/a,n/a,Yes,No,Bronx,10461
+Missy,F,American Eskimo dog,Jan-07,WHITE,n/a,n/a,Yes,No,Manhattan,10035
+Kodiak,M,American Eskimo dog,Apr-07,WHITE,n/a,n/a,Yes,No,Bronx,10461
+Sheba,F,American Eskimo dog,Jun-07,WHITE,n/a,n/a,Yes,No,Brooklyn,11205
+Blizzard,M,American Eskimo dog,Jul-07,WHITE,n/a,n/a,Yes,No,Manhattan,10011
+Rocky,M,American Eskimo dog,Aug-07,WHITE,n/a,n/a,Yes,No,Manhattan,10003
+Loki,M,American Eskimo dog,Sep-07,WHITE,n/a,n/a,Yes,No,Manhattan,10036
+Luna-Pearl,F,American Eskimo dog,Nov-07,WHITE,n/a,n/a,Yes,No,Staten Island,10310
+Mozart,M,American Eskimo dog,Nov-07,WHITE,n/a,n/a,Yes,No,Staten Island,10308
+Dorian,M,American Eskimo dog,Dec-07,WHITE,n/a,n/a,Yes,No,Staten Island,10302
+Emily,F,American Eskimo dog,Dec-07,WHITE,n/a,n/a,Yes,No,Manhattan,10128
+CHALUTZ,M,American Eskimo dog,Jan-08,WHITE,n/a,n/a,Yes,No,Staten Island,10312
+Olivia,F,American Eskimo dog,Jan-08,WHITE,n/a,n/a,Yes,No,Staten Island,10305
+Rocky,M,American Eskimo dog,Feb-08,WHITE,BROWN,n/a,Yes,No,Brooklyn,11208
+Champ,M,American Eskimo dog,Mar-08,BLOND,WHITE,n/a,Yes,No,Manhattan,10029
+Kiki,F,American Eskimo dog,Mar-08,WHITE,n/a,n/a,Yes,No,Manhattan,10024
+Juno,M,American Eskimo dog,Apr-08,TAN,n/a,n/a,Yes,No,Manhattan,10003
+Luka,M,American Eskimo dog,Apr-08,WHITE,n/a,n/a,Yes,No,Manhattan,10014
+Snowie,M,American Eskimo dog,Apr-08,WHITE,n/a,n/a,Yes,No,Staten Island,10309
+Little,F,American Eskimo dog,Jun-08,WHITE,n/a,n/a,Yes,No,Manhattan,10023
+n/a,F,American Eskimo dog,Jun-08,WHITE,n/a,n/a,Yes,No,Queens,11377
+Jack,M,American Eskimo dog,Aug-08,WHITE,APRICOT,BLOND,No,No,Queens,11385
+Lana,F,American Eskimo dog,Aug-08,WHITE,TAN,n/a,Yes,No,Queens,11363
+Toby,M,American Eskimo dog,Oct-08,WHITE,n/a,n/a,Yes,No,Manhattan,10025
+champ/champion,M,American Eskimo dog,Dec-08,TAN,WHITE,CREAM,No,No,Bronx,10472
+Glacier,F,American Eskimo dog,Dec-08,WHITE,BLACK,n/a,Yes,No,Manhattan,10021
+Mini,F,American Eskimo dog,Dec-08,WHITE,TAN,n/a,No,No,Queens,11372
+Calvin,M,American Eskimo dog,Feb-09,WHITE,n/a,n/a,Yes,No,Manhattan,10028
+Buddy,M,American Eskimo dog,Mar-09,WHITE,n/a,n/a,Yes,No,Manhattan,10021
+Princess,F,American Eskimo dog,Mar-09,WHITE,n/a,n/a,Yes,No,Queens,11413
+KAIDY,F,American Eskimo dog,Apr-09,WHITE,n/a,n/a,Yes,No,Bronx,10473
+Sparky,M,American Eskimo dog,Apr-09,WHITE,n/a,n/a,Yes,No,Staten Island,10314
+Da,M,American Eskimo dog,May-09,WHITE,n/a,n/a,No,No,Queens,11355
+Peaches,F,American Eskimo dog,Jun-09,WHITE,n/a,n/a,No,No,Manhattan,10033
+Zeus,M,American Eskimo dog,Jun-09,WHITE,CREAM,BROWN,Yes,No,Brooklyn,11222
+Ellie,F,American Eskimo dog,Aug-09,GOLD,n/a,n/a,Yes,No,Queens,11375
+Esco,M,American Eskimo dog,Sep-09,WHITE,n/a,n/a,No,No,Brooklyn,11207
+George,M,American Eskimo dog,Oct-09,WHITE,n/a,n/a,Yes,No,Manhattan,10023
+Baby,F,American Eskimo dog,Nov-09,WHITE,n/a,n/a,Yes,No,Queens,11385
+Kerry,F,American Eskimo dog,Jan-10,WHITE,n/a,n/a,Yes,No,Brooklyn,11215
+Messi,M,American Eskimo dog,Jan-10,WHITE,n/a,n/a,Yes,No,Bronx,10454
+Mochi,M,American Eskimo dog,Jan-10,WHITE,n/a,n/a,No,No,Manhattan,10009
+SCHUBERT,M,American Eskimo dog,Jan-10,WHITE,CREAM,n/a,Yes,No,Manhattan,10010
+Cloud,M,American Eskimo dog,Feb-10,WHITE,n/a,n/a,No,No,Queens,11377
+Nanuq,M,American Eskimo dog,May-10,WHITE,n/a,n/a,Yes,No,Staten Island,10309
+Snowball,M,American Eskimo dog,May-10,WHITE,n/a,n/a,Yes,No,Queens,11427
+Tag,F,American Eskimo dog,Jun-10,WHITE,TAN,n/a,Yes,No,Manhattan,10009
+Isabel,F,American Eskimo dog,Jul-10,WHITE,n/a,n/a,Yes,No,Manhattan,10001
+Snowy,M,American Eskimo dog,Jul-10,WHITE,n/a,n/a,Yes,No,Brooklyn,11223
+Casper,M,American Eskimo dog,Oct-10,WHITE,n/a,n/a,Yes,No,Manhattan,10010
+n/a,M,American Eskimo dog,Jan-11,WHITE,n/a,n/a,No,No,Staten Island,10308
+n/a,M,American Eskimo dog,Jan-11,WHITE,n/a,n/a,Yes,No,Manhattan,10012
+Sammie,M,American Eskimo dog,Jan-11,WHITE,n/a,n/a,Yes,No,Manhattan,10019
+Tosha,F,American Eskimo dog,Jan-11,WHITE,BROWN,CREAM,No,No,Queens,11367
+Brooklyn,F,American Eskimo dog,Feb-11,WHITE,n/a,n/a,Yes,No,Queens,11104
+Kaster,M,American Eskimo dog,Feb-11,WHITE,n/a,n/a,No,No,Brooklyn,11211
+Katie,F,American Eskimo dog,Feb-11,WHITE,n/a,n/a,No,No,Manhattan,10024
+Yuki,F,American Eskimo dog,Mar-11,WHITE,n/a,n/a,Yes,No,Queens,11364
+Ella,F,American Eskimo dog,Apr-11,WHITE,TAN,n/a,Yes,No,Staten Island,10307
+n/a,F,American Eskimo dog,Apr-11,WHITE,n/a,n/a,No,No,Brooklyn,11209
+Snoopy,M,American Eskimo dog,May-11,WHITE,n/a,n/a,No,No,Bronx,10458
+Flurry,F,American Eskimo dog,Jun-11,WHITE,n/a,n/a,No,No,Staten Island,10309
+n/a,M,American Eskimo dog,Jun-11,WHITE,n/a,n/a,Yes,No,Queens,11377
+n/a,M,American Eskimo dog,Jun-11,WHITE,n/a,n/a,Yes,No,Queens,11374
+n/a,F,American Eskimo dog,Jun-11,WHITE,n/a,n/a,Yes,No,Brooklyn,11235
+n/a,F,American Eskimo dog,Jun-11,WHITE,n/a,n/a,Yes,No,Manhattan,10001
+Ruby,F,American Eskimo dog,Jun-11,WHITE,n/a,n/a,No,No,Staten Island,10303
+n/a,F,American Eskimo dog,Jul-11,WHITE,n/a,n/a,Yes,No,Queens,11417
+n/a,F,American Eskimo dog,Jul-11,WHITE,n/a,n/a,Yes,No,Manhattan,10007
+n/a,F,American Eskimo dog,Aug-11,WHITE,n/a,n/a,Yes,No,Queens,11374
+n/a,M,American Eskimo dog,Aug-11,WHITE,n/a,n/a,Yes,No,Queens,11356
+n/a,M,American Eskimo dog,Aug-11,WHITE,n/a,n/a,Yes,No,Brooklyn,11206
+n/a,M,American Eskimo dog,Aug-11,WHITE,n/a,n/a,Yes,No,Bronx,10459
+Rocky,M,American Eskimo dog,Aug-11,WHITE,n/a,n/a,No,No,Brooklyn,11211
+TUO,F,American Eskimo dog,Aug-11,WHITE,n/a,n/a,No,No,Queens,11365
+Mason,M,American Eskimo dog,Sep-11,WHITE,n/a,n/a,No,No,Manhattan,10038
+Max,M,American Eskimo dog,Sep-11,WHITE,n/a,n/a,No,No,Bronx,10460
+Sake,F,American Eskimo dog,Oct-11,WHITE,n/a,n/a,No,No,Manhattan,10011
+Snowflake,F,American Eskimo dog,Nov-11,WHITE,n/a,n/a,No,No,Bronx,10473
+Spock,M,American Pit Bull Mix / Pit Bull Mix,Dec-92,BRINDLE,WHITE,n/a,No,No,Queens,11368
+Pepe,M,American Pit Bull Mix / Pit Bull Mix,Jan-97,BROWN,WHITE,n/a,No,No,Bronx,10458
+Daisy,F,American Pit Bull Mix / Pit Bull Mix,Jan-98,BROWN,n/a,n/a,Yes,No,Manhattan,10002
+Nasha,F,American Pit Bull Mix / Pit Bull Mix,Oct-98,BLACK,WHITE,BROWN,Yes,No,Bronx,10471
+Hope,F,American Pit Bull Mix / Pit Bull Mix,Jan-99,FAWN,n/a,n/a,Yes,No,Brooklyn,11209
+Sweetie,F,American Pit Bull Mix / Pit Bull Mix,Jan-99,BROWN,BLACK,WHITE,Yes,No,Manhattan,10014
+Tricky,M,American Pit Bull Mix / Pit Bull Mix,Apr-99,WHITE,BLACK,n/a,Yes,No,Brooklyn,11207
+Apachie,M,American Pit Bull Mix / Pit Bull Mix,May-99,TAN,WHITE,n/a,No,No,Brooklyn,11206
+Brooklyn,F,American Pit Bull Mix / Pit Bull Mix,Nov-99,WHITE,n/a,n/a,No,No,Brooklyn,11224
+Bear,M,American Pit Bull Mix / Pit Bull Mix,Jan-00,WHITE,n/a,n/a,No,No,Bronx,10454
+Gypsy,F,American Pit Bull Mix / Pit Bull Mix,Jan-00,BRINDLE,WHITE,n/a,Yes,No,Queens,11370
+Gypsy,F,American Pit Bull Mix / Pit Bull Mix,Jan-00,WHITE,BROWN,n/a,Yes,No,Manhattan,10021
+Prince,M,American Pit Bull Mix / Pit Bull Mix,Jan-00,TAN,WHITE,n/a,Yes,No,Brooklyn,11236
+Sharon,M,American Pit Bull Mix / Pit Bull Mix,Jan-00,BROWN,CHOCOLATE,BLACK,No,No,Queens,11432
+Mia,F,American Pit Bull Mix / Pit Bull Mix,Mar-00,BLACK,n/a,n/a,Yes,No,Queens,11102
+Chocolate,F,American Pit Bull Mix / Pit Bull Mix,Jul-00,BROWN,WHITE,n/a,No,No,Queens,11385
+Scout,F,American Pit Bull Mix / Pit Bull Mix,Jul-00,BRINDLE,WHITE,n/a,Yes,No,Brooklyn,11215
+Belize,F,American Pit Bull Mix / Pit Bull Mix,Oct-00,TAN,WHITE,n/a,Yes,No,Manhattan,10009
+Nikki,F,American Pit Bull Mix / Pit Bull Mix,Jan-01,BRINDLE,WHITE,n/a,Yes,No,Staten Island,10314
+Shaka,M,American Pit Bull Mix / Pit Bull Mix,Jan-01,BLACK,TAN,WHITE,No,No,Brooklyn,11203
+Chloe,F,American Pit Bull Mix / Pit Bull Mix,May-01,TAN,WHITE,n/a,Yes,No,Brooklyn,11229
+Zoe,F,American Pit Bull Mix / Pit Bull Mix,May-01,TAN,WHITE,n/a,Yes,No,Brooklyn,11229
+Destiny,F,American Pit Bull Mix / Pit Bull Mix,Jul-01,BRINDLE,n/a,n/a,Yes,No,Brooklyn,11249
+Tyson,M,American Pit Bull Mix / Pit Bull Mix,Aug-01,BLACK,WHITE,n/a,Yes,No,Bronx,10465
+Chelsea,F,American Pit Bull Mix / Pit Bull Mix,Sep-01,BROWN,WHITE,n/a,Yes,No,Queens,11417
+Precious,F,American Pit Bull Mix / Pit Bull Mix,Oct-01,RUST,WHITE,n/a,No,No,Brooklyn,11229
+Smokey,M,American Pit Bull Mix / Pit Bull Mix,Nov-01,BRINDLE,WHITE,n/a,Yes,No,Queens,11432
+Honey,F,American Pit Bull Mix / Pit Bull Mix,Jan-02,BROWN,BRINDLE,WHITE,Yes,No,Staten Island,10314
+SAMURAI,F,American Pit Bull Mix / Pit Bull Mix,Jan-02,BLOND,n/a,n/a,Yes,No,Brooklyn,11215
+Strom,F,American Pit Bull Mix / Pit Bull Mix,Jan-02,TAN,WHITE,n/a,No,No,Manhattan,10030
+Sugar,F,American Pit Bull Mix / Pit Bull Mix,Jan-02,WHITE,BLACK,n/a,Yes,No,Manhattan,10009
+Tank,M,American Pit Bull Mix / Pit Bull Mix,Feb-02,BRINDLE,WHITE,n/a,No,No,Bronx,10454
+Trasa,F,American Pit Bull Mix / Pit Bull Mix,Feb-02,BROWN,WHITE,n/a,No,No,Brooklyn,11207
+Scylla,F,American Pit Bull Mix / Pit Bull Mix,Apr-02,BRINDLE,n/a,n/a,Yes,No,Bronx,10462
+Mugsy,M,American Pit Bull Mix / Pit Bull Mix,May-02,BRINDLE,n/a,n/a,Yes,No,Manhattan,10011
+Spike,M,American Pit Bull Mix / Pit Bull Mix,Jun-02,WHITE,BROWN,n/a,No,No,Brooklyn,11212
+Trippel-O,F,American Pit Bull Mix / Pit Bull Mix,Jul-02,WHITE,n/a,n/a,Yes,No,Bronx,10467
+Belle,F,American Pit Bull Mix / Pit Bull Mix,Aug-02,BRINDLE,n/a,n/a,Yes,No,Manhattan,10024
+Lexus,F,American Pit Bull Mix / Pit Bull Mix,Sep-02,CHARCOAL,WHITE,n/a,No,No,Bronx,10466
+Lizzie,F,American Pit Bull Mix / Pit Bull Mix,Sep-02,BRINDLE,n/a,n/a,Yes,No,Manhattan,10025
+Sasha,F,American Pit Bull Mix / Pit Bull Mix,Sep-02,TAN,BLACK,WHITE,Yes,No,Bronx,10474
+Ellie,F,American Pit Bull Mix / Pit Bull Mix,Oct-02,BROWN,WHITE,n/a,Yes,No,Brooklyn,11222
+Ruckus,M,American Pit Bull Mix / Pit Bull Mix,Oct-02,BRINDLE,n/a,n/a,No,No,Brooklyn,11220
+Samantha,F,American Pit Bull Mix / Pit Bull Mix,Oct-02,BLACK,WHITE,n/a,No,No,Brooklyn,11231
+Genee,F,American Pit Bull Mix / Pit Bull Mix,Jan-03,BROWN,WHITE,n/a,Yes,No,Bronx,10452
+LEGBA,M,American Pit Bull Mix / Pit Bull Mix,Jan-03,BLACK,n/a,n/a,Yes,No,Brooklyn,11208
+Mocha,F,American Pit Bull Mix / Pit Bull Mix,Jan-03,TAN,WHITE,BROWN,No,No,Bronx,10453
+Moo,M,American Pit Bull Mix / Pit Bull Mix,Jan-03,BROWN,n/a,n/a,Yes,No,Manhattan,10128
+Nemo-Castillo,M,American Pit Bull Mix / Pit Bull Mix,Jan-03,GOLD,TAN,n/a,Yes,No,Brooklyn,11237
+Pete,M,American Pit Bull Mix / Pit Bull Mix,Jan-03,WHITE,BROWN,n/a,Yes,No,Staten Island,10306
+Lizzy,F,American Pit Bull Mix / Pit Bull Mix,Feb-03,BLACK,WHITE,n/a,No,No,Brooklyn,11229
+Reina,F,American Pit Bull Mix / Pit Bull Mix,Feb-03,BROWN,n/a,n/a,Yes,No,Staten Island,10306
+TELLI,F,American Pit Bull Mix / Pit Bull Mix,Feb-03,WHITE,BRINDLE,n/a,Yes,No,Queens,11372
+Chubby,M,American Pit Bull Mix / Pit Bull Mix,Mar-03,WHITE,n/a,n/a,Yes,No,Brooklyn,11203
+Hunney,F,American Pit Bull Mix / Pit Bull Mix,Apr-03,GOLD,SILVER,n/a,Yes,No,Queens,11694
+Loca,F,American Pit Bull Mix / Pit Bull Mix,May-03,BLACK,WHITE,BROWN,Yes,No,Bronx,10467
+Trouble,M,American Pit Bull Mix / Pit Bull Mix,May-03,BRINDLE,n/a,n/a,No,No,Manhattan,10037
+Brooklyn,M,American Pit Bull Mix / Pit Bull Mix,Jul-03,BROWN,RUST,BLACK,Yes,No,Brooklyn,11215
+putney,F,American Pit Bull Mix / Pit Bull Mix,Jul-03,WHITE,n/a,n/a,Yes,No,Manhattan,10027
+Siagon,M,American Pit Bull Mix / Pit Bull Mix,Aug-03,BRINDLE,BROWN,TAN,No,No,Bronx,10463
+Damian,M,American Pit Bull Mix / Pit Bull Mix,Sep-03,TAN,n/a,n/a,Yes,No,Staten Island,10309
+Oden,M,American Pit Bull Mix / Pit Bull Mix,Sep-03,BRINDLE,WHITE,n/a,Yes,No,Manhattan,10036
+Sandi,F,American Pit Bull Mix / Pit Bull Mix,Sep-03,TAN,n/a,n/a,Yes,No,Staten Island,10305
+Cashew,M,American Pit Bull Mix / Pit Bull Mix,Nov-03,TAN,n/a,n/a,Yes,No,Queens,11104
+Tico,M,American Pit Bull Mix / Pit Bull Mix,Nov-03,BRINDLE,n/a,n/a,Yes,No,Brooklyn,11218
+Precious,F,American Pit Bull Mix / Pit Bull Mix,Dec-03,BLACK,WHITE,n/a,No,No,Bronx,10458
+Beauty,F,American Pit Bull Mix / Pit Bull Mix,Jan-04,TAN,n/a,n/a,Yes,No,Staten Island,10312
+BROOKE,F,American Pit Bull Mix / Pit Bull Mix,Jan-04,BLACK,WHITE,n/a,Yes,No,Brooklyn,11217
+Champ,M,American Pit Bull Mix / Pit Bull Mix,Jan-04,TAN,n/a,n/a,No,No,Manhattan,10035
+Dutchie,M,American Pit Bull Mix / Pit Bull Mix,Jan-04,BLACK,BROWN,WHITE,Yes,No,Queens,11102
+Gigi,F,American Pit Bull Mix / Pit Bull Mix,Jan-04,BLACK,n/a,n/a,Yes,No,Manhattan,10001
+HONEST,M,American Pit Bull Mix / Pit Bull Mix,Jan-04,BRINDLE,BLACK,TAN,Yes,No,Manhattan,10001
+Jax,M,American Pit Bull Mix / Pit Bull Mix,Jan-04,BROWN,n/a,n/a,Yes,No,Manhattan,10039
+Lola,F,American Pit Bull Mix / Pit Bull Mix,Jan-04,TAN,BLACK,WHITE,Yes,No,Queens,11375
+Pepper,F,American Pit Bull Mix / Pit Bull Mix,Jan-04,BLACK,WHITE,n/a,Yes,No,Brooklyn,11209
+Shadow,M,American Pit Bull Mix / Pit Bull Mix,Jan-04,BLACK,n/a,n/a,Yes,No,Staten Island,10304
+Snoopy,M,American Pit Bull Mix / Pit Bull Mix,Jan-04,WHITE,BLACK,n/a,Yes,No,Manhattan,10014
+SZASZU,F,American Pit Bull Mix / Pit Bull Mix,Jan-04,BRINDLE,WHITE,n/a,Yes,No,Manhattan,10032
+Tabatha,F,American Pit Bull Mix / Pit Bull Mix,Jan-04,BLACK,BROWN,n/a,Yes,No,Manhattan,10019
+Thor,M,American Pit Bull Mix / Pit Bull Mix,Jan-04,BROWN,BLACK,WHITE,Yes,No,Manhattan,10025
+Rubia,F,American Pit Bull Mix / Pit Bull Mix,Feb-04,CREAM,WHITE,n/a,Yes,No,Bronx,10454
+Ace,M,American Pit Bull Mix / Pit Bull Mix,Mar-04,WHITE,BLACK,n/a,Yes,No,Manhattan,10029
+Goofy,M,American Pit Bull Mix / Pit Bull Mix,Apr-04,WHITE,BROWN,n/a,No,No,Brooklyn,11223
+Rocky,M,American Pit Bull Mix / Pit Bull Mix,Apr-04,WHITE,BROWN,n/a,Yes,No,Staten Island,10314
+Diesel,M,American Pit Bull Mix / Pit Bull Mix,Jun-04,BRINDLE,BROWN,WHITE,No,No,Manhattan,10013
+Gracie,F,American Pit Bull Mix / Pit Bull Mix,Jun-04,BROWN,WHITE,n/a,Yes,No,Manhattan,10128
+Epiphany,F,American Pit Bull Mix / Pit Bull Mix,Jul-04,BRINDLE,WHITE,n/a,Yes,No,Brooklyn,11206
+Jasmine,F,American Pit Bull Mix / Pit Bull Mix,Aug-04,BROWN,BRINDLE,n/a,Yes,No,Brooklyn,11234
+Bacardi,F,American Pit Bull Mix / Pit Bull Mix,Oct-04,WHITE,BROWN,n/a,Yes,No,Manhattan,10002
+Chloe,F,American Pit Bull Mix / Pit Bull Mix,Oct-04,WHITE,TAN,n/a,Yes,No,Staten Island,10306
+Pit,M,American Pit Bull Mix / Pit Bull Mix,Oct-04,WHITE,BROWN,n/a,Yes,No,Manhattan,10035
+Ivy,F,American Pit Bull Mix / Pit Bull Mix,Dec-04,WHITE,BRINDLE,n/a,No,No,Bronx,10472
+Babe,F,American Pit Bull Mix / Pit Bull Mix,Jan-05,WHITE,BLOND,n/a,Yes,No,Queens,11693
+Bruno,M,American Pit Bull Mix / Pit Bull Mix,Jan-05,WHITE,BROWN,BLACK,No,No,Bronx,10466
+Dante,M,American Pit Bull Mix / Pit Bull Mix,Jan-05,BROWN,WHITE,n/a,Yes,No,Staten Island,10302
+Dutchez,M,American Pit Bull Mix / Pit Bull Mix,Jan-05,BROWN,n/a,n/a,No,No,Bronx,10468
+Ginger,F,American Pit Bull Mix / Pit Bull Mix,Jan-05,WHITE,BROWN,n/a,Yes,No,Manhattan,10002
+Lucky,M,American Pit Bull Mix / Pit Bull Mix,Jan-05,BLACK,WHITE,n/a,Yes,No,Manhattan,10019
+Lulu,F,American Pit Bull Mix / Pit Bull Mix,Jan-05,BROWN,WHITE,n/a,Yes,No,Brooklyn,11209
+Mama,F,American Pit Bull Mix / Pit Bull Mix,Jan-05,BROWN,WHITE,n/a,Yes,No,Brooklyn,11211
+Sheeba,F,American Pit Bull Mix / Pit Bull Mix,Jan-05,BROWN,WHITE,n/a,Yes,No,Manhattan,10011
+Gizmo,M,American Pit Bull Mix / Pit Bull Mix,Feb-05,BROWN,WHITE,n/a,Yes,No,Queens,11421
+Jessie,F,American Pit Bull Mix / Pit Bull Mix,Feb-05,BRINDLE,WHITE,n/a,No,No,Brooklyn,11209
+Bear,M,American Pit Bull Mix / Pit Bull Mix,Mar-05,BLACK,WHITE,BROWN,Yes,No,Manhattan,10029
+Clipper,M,American Pit Bull Mix / Pit Bull Mix,Apr-05,BROWN,n/a,n/a,Yes,No,Manhattan,10012
+Frida,F,American Pit Bull Mix / Pit Bull Mix,May-05,BROWN,BRINDLE,n/a,Yes,No,Bronx,10471
+Tyler,M,American Pit Bull Mix / Pit Bull Mix,Jun-05,CHARCOAL,BROWN,WHITE,No,No,Queens,11419

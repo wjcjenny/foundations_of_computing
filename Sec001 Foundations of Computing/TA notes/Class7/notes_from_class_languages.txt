@@ -1,0 +1,84 @@
+# Python
+- multi-purpose language (good for data analysis, among other things)
+- high-level language: Generally slower than lower-level languages, 
+but more readable & easy to write
+	* Hello World
+		print "Hello World"
+big ecosystem, lots of libraries
+	* for building websites
+		Django
+	* for scraping
+		ScraPy
+
+# Ruby
+- high-level language: Generally slower than lower-level languages, 
+but more readable & easy to write
+	* Hello World
+		puts "Hello World"
+big ecosystem, lots of libraries
+	* for building websites
+		Ruby on Rails
+	* for scraping
+		Mechanize
+
+# PHP (PHP Hypertext Preprocessor)
+- high-level language: Generally slower than lower-level languages, 
+but more readable & easy to write
+	* Hello World
+		echo "Hello World"
+arguably the most popular, because of Wordpress
+terrible language, saith Soma
+
+# C++
+- high-level language (but lower-level than, say, Python: good for knowing how things work)
+
+# Assembly
+- low-level language
+
+
+In the context of web development,
+- back-end : the ones who mash your potatoes
+- front-end: the waiters
+# XML
+- markup language; not a programming language
+# HTML(5)
+the plain doll
+- markup language; not a programming language
+		<h1>This is a header</h1>
+		<p>This is a paragraph</p>
+		<p>This is another paragraph</p>
+# CSS
+the clothes that go on a doll
+- style sheet language; not a programming language
+		h1{
+			color:red;
+		}
+		p{
+			background:yellow;
+		}
+# JavaScript
+the doll-wigging: adds advanced functionality on a page
+Technically, its name is ECMAScript6; Java is to JavaScript what car is to carpet
+Used (mostly) inside a browser, though node.js lets you run it outside of a browser
+	* Hello World
+		alert( 'Hello world' );
+libraries:
+		D3.js
+		jQuery
+
+# Java
+
+# C#
+
+# Drupal
+
+# R
+- for statistical analysis
+
+# MySQL
+- for querying data
+		SELECT *
+		FROM pages
+		WHERE 10 < id AND id < 40
+
+* the main() function

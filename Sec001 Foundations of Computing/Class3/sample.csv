@@ -1,0 +1,10 @@
+dog_name,gender,breed,birth,dominant_color,secondary_color,third_color,spayed_or_neutered,guard_or_trained,borough,zip_code
+Buddy,M,Afghan Hound,Jan-00,BRINDLE,BLACK,n/a,Yes,No,Manhattan,10003
+Nicole,F,Afghan Hound,Jul-00,BLACK,n/a,n/a,Yes,No,Manhattan,10021
+Abby,F,Afghan Hound,Nov-00,BLACK,TAN,n/a,Yes,No,Manhattan,10034
+Chloe,F,Afghan Hound,Jan-02,WHITE,BLOND,n/a,Yes,No,Manhattan,10024
+Jazzle,F,Afghan Hound,Oct-02,BLOND,WHITE,BLACK,Yes,No,Manhattan,10022
+Trouble,M,Afghan Hound,Jan-03,BLOND,WHITE,BLACK,Yes,No,Bronx,10472
+Grace,F,Afghan Hound,Jun-03,CREAM,n/a,n/a,Yes,No,Manhattan,10021
+Sisu,M,Afghan Hound,Oct-04,BLACK,WHITE,GRAY,No,No,Manhattan,10023
+Jakie,M,Afghan Hound,Feb-05,WHITE,n/a,n/a,No,No,Queens,11354

@@ -1,0 +1,204 @@
+NOTE FOR TA'S:
+
+markers
+
+====== ====== ====== ====== ====== ====== ====== ======
+
+STUFF MENTIONED IN CLASS:
+
+Code Academy: Doesn't tell you how to put the stuff together
+Skill Crush
+
+BBC the world at seven billion
+http://www.bbc.com/news/world-15391515
+BBC your life on earth
+http://www.bbc.com/earth/story/20141016-your-life-on-earth
+
+http://hackertyper.com/
+
+====== ====== ====== ====== ====== ====== ====== ======
+
+WHAT WE DID IN CLASS:
+
+1: join Slack (https://ledeprogram.slack.com/)
+
+2: install Sublime Text (http://www.sublimetext.com/)
+
+3: check
+ - your computer user name
+ - where files go when you download it
+4: make a folder/directory for all Lede stuff
+
+5: get to your terminal
+	magnifying glass icon > search: terminal
+	or
+	applications folder > utilitites > terminal
+
+*Windows: install Babun (http://babun.github.io)
+	> start menu > search: env > environment variables > add path "HOME" "/c/Users/MyUserName" (or maybe for Windows 7) "cd C:/Users/MyUserName"
+
+6: In terminal/Babun,
+
+	# On a Mac, the prompt should look something like
+	# dyn-number-number-number-number:~ MyUserName$
+	# ~ on a Mac means /Users/MyUserName
+
+	pwd
+	# print working directory (shows where you are in your computer)
+
+	# Now track down that Lede directory you made
+
+	ls
+	# list stuff (sort of)
+
+	cd Desktop
+	# change directory, to Desktop
+	cd ..
+	# change directory, to one directory above
+	cd ~
+	# change directory, to the home directory (/Users/MyUserName)
+
+*Windows:
+	# You're probably originally going to be in /home/MyUserName
+	cd ../../C:/Users/MyUserName
+	cd Documents/Lede
+
+7: In terminal/Babun,
+	shortcuts:
+	the tab key
+	the up arrow key
+
+8: In terminal/Babun,
+	python --version
+
+9: Creating a Python file and running it
+
+	In Sublime Text, (Python)
+	(Create a file, and type)
+	print "Hello World"
+	(Save it as)
+	hello.py
+
+	In teminal/Babun,
+	cat hello.py
+	# displays what is inside of that file
+
+	python hello.py
+	# run the code
+
+10: In teminal/Babun,
+	reading error messages:
+
+	SyntaxError: EOL while scanning string literal
+	(Time to google!)
+
+11: In Sublime Text, (Python)
+
+	# commenting
+	'text'
+	"text" # you can't mix single and double quotes
+
+	# DATA TYPES
+	# quoted text are called strings
+	print "Hello World"
+
+	# whole numbers are called integers
+	print 10
+
+	# numbers with decimal points are called floats
+	print 10.0
+
+	# DOING ARITHMETIC
+	print 10 + 10 # This prints 20
+	print "10 + 10" # This prints 10 + 10
+
+	print 10 + "Hello" # TypeError
+	print 10, "Hello" # This prints 10 Hello
+	# We try typecasting:
+	print str( 10 ) + "Hello" # This prints 10Hello 
+	print 10 + int( "Hello" ) # ValueError
+	print 10 + int( "10" ) # This prints 20
+
+12: In Sublime Text, (Python)
+
+	name = "Soma"
+	print "Hello,",name
+
+	In terminal/Babun,
+	this prints 
+	Hello, Soma
+
+	# name is a variable
+	# variable names can't have spaces or dashes
+	# instead do something like year_of_birth, yearOfBirth (camel case)
+
+13: In Sublime Text, (Python)
+
+	name = "Soma"
+	print "Hello,",lastname
+
+	In terminal/Babun,
+	NameError: name 'lastname' is not defined
+
+14: In Sublime Text, (Python)
+
+	# For Python 2,
+	name = raw_input( "Enter your name: " )
+	print "Hello,",name
+
+	# For Python 3,
+	name = input( "Enter your name: " )
+	print( "Hello, " + name )
+
+	In terminal/Babun,
+	this asks you for your name
+	and prints Hello, whatever your name you typed in
+
+15: In Sublime Text, (Python)
+
+	# For Python 2,
+	year_of_birth = raw_input( "Enter your year of birth: " )
+	age = 2015 - int( year_of_birth ) # typecasting
+	print "You are approximately",age,"years old"
+
+	# raw_input(), int() are functions
+	# functions take something then does something or gives you something (that's usually different from what it took)
+
+	In terminal/Babun,
+	this asks you for your year of birth
+	and prints You are approximately (whatever age it calculated) years old
+
+16: In Sublime Text, (Python)
+
+	# For Python 2,
+	year_of_birth = raw_input( "Enter your year of birth: " )
+	earth_age = 2015 - int( year_of_birth ) # typecasting
+	print "You are approximately",earth_age,"years old"
+
+	earth_revolution = 365.24
+	mercury_revolution = 87.97
+	ratio = earth_revolution / mercury_revolution
+	print ratio
+
+	mercury_age = int( earth_age * ratio )
+	print "Your age on Mercury is",mercury_age
+
+	# writing peudocode:
+	# If year_of_birth is equal to 1983,
+	# then say "Hooray! Your age is the same as mine!"
+	if int( year_of_birth ) == 1983 :
+		print "Hooray! Your age is the same as mine!"
+
+	# If year_of_birth is smaller than 1983,
+	# then say "You are older than me."
+	if int( year_of_birth ) < 1983 :
+		print "You are older than me."
+
+	# If year_of_birth is larger than 1983,
+	# then say "You are younger than me."
+	if int( year_of_birth ) > 1983 :
+		print "You are younger than me."
+
+	In terminal/Babun,
+	...this does a lot of stuff. Run it and see.
+

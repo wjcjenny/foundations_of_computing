@@ -1,0 +1,2 @@
+# * /5 * * * * python ~/Desktop/lede/quakeprocess.py > ~/output.txt
+＃ 0 13 * 6,7 1,3 say -v Bells Class is over

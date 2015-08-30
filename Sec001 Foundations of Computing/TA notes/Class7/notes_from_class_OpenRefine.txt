@@ -1,0 +1,225 @@
+#######################################################################
+3: OpenRefine: Industry standard for cleaning dirty data
+
+
+#######################################################################
+
+INSTALL
+
+http://openrefine.org/download.html
+Download a stable version.
+Install.
+Make sure you drag it into your Applications folder.
+
+Stuff you might have to do #1:
+On the top left, click the apple > System Preferences > Security & Privacy >
+Click lock in the bottom right
+Check "Anywhere"
+
+Stuff you might have to do #2:
+Install legacy java se 6 runtime for mac:
+http://download.info.apple.com/Mac_OS_X/031-03190.20140529.Pp3r4/JavaForOSX2014-001.dmg
+(Link courtesy of https://discussions.apple.com/thread/6604985)
+
+
+#######################################################################
+
+OPEN
+
+Open OpenRefine from the Applications folder (NOT from the dmg)
+
+In a browser, go to http://127.0.0.1:3333
+# http://127.0.0.1 or localhost is your own computer.
+# :3333 is a port, a "hole" you're connecting to.
+
+Select a file, upload
+On the top right, click "Create Project"
+
+
+#######################################################################
+
+WHEN IT'S SLOW
+
+OpenRefine might be ridiculously slow; if so quit (from the task bar, not in the browser) and start again.
+
+
+#######################################################################
+
+TEXT FILTER: search
+
+Arrow left of column name "dog_name" > Text filter > search for "Max"
+# Not quite what we want. It returns all names that contains "Max", e.g. "kmax" "maxah".
+
+
+#######################################################################
+
+FACET: group by
+
+Arrow left of column name "dog_name" > Facet > Text facet
+Left panel box > Sort by : count
+Find & click "Max"
+# It shows us just "Max"'s now. 
+Click the top left x to get rid of the box
+
+Arrow left of column name "dominant_color" > Facet > Text facet
+Left panel box > Sort by : count
+Click the top left x to get rid of the box
+
+
+# Answer the question: Are guard or trained dogs always big, scary dogs?
+Arrow left of column name "guard_or_trained" > Facet > Text facet
+Left panel box
+Find & click "Yes"
+
+# Where do these guard dogs live?
+Arrow left of column name "borough" > Facet > Text facet
+Left panel box > Sort by : count
+# We can click the top left x to get rid of the box
+
+# What breed are these dogs?
+Arrow left of column name "breed" > Facet > Text facet
+Left panel box > Sort by : count
+# People might be joking/confused on these dog registrations.
+
+
+#######################################################################
+
+COPY (& EDIT) COLUMN
+
+Arrow left of column name "dog_name" > Edit column > Add column based on this column
+	New column name: "cleaned_dog_name",
+	ingore Expression for now
+
+
+EDIT COLUMN: to uppercase
+
+# Change values of a column:
+Arrow left of column name "cleaned_dog_name" > Edit cells > Common transforms > To uppercase
+
+FACET
+Arrow left of column name "cleaned_dog_name" > Facet > Text facet
+Left panel box > Sort by : count
+
+CLUSTER
+
+# Tell if someone made a typo:
+Left panel box > On the top right, click "cluster"
+# or
+Arrow left of column name "cleaned_dog_name" > Edit cells > Cluster and edit
+	Method: key collision
+	Keying Function: Metaphone3
+	Look at each cluster, check "Merge?" if you think it's reasonable. Edit "New cell value" to something reasonable.
+On the bottom right, click "Merge Selected & Re-Cluster"
+
+# the stuff you're doing is happening only on the rows you're currently looking at. So you only did that work on Max's only.
+
+
+#######################################################################
+
+UNDO/REDO
+
+On the left panel, on the top, click the "Undo/Redo" tab > click back, undo all the things you did
+
+
+#######################################################################
+
+DEALING WITH DATES
+
+FACET
+Arrow left of column name "birth" > Facet > Timeline facet
+# This gives you NaN, NaN, NaN...
+
+EDIT COLUMN: change type
+Arrow left of column name "birth" > Edit cells > Common transforms > To date
+
+COPY & EDIT COLUMN
+Arrow left of column name "birth" > Edit column > Add column based on this column
+# Google "How do you convert a string into dates"
+	New column name: cleaned_birth, 
+	Expression: value.toDate('MMM-yy').toString('yyyy-MM'),
+		# This might not work depending on what language your computer/Chrome is in! Who knew right?
+		# Select English on https://myaccount.google.com/preferences?utm_source=OGB&pli=1#localization
+	Language: Google Refine Expression Language (GREL)
+# The dates are green now.
+
+#######################################################################
+
+Data set exported from http://www.checkbooknyc.com/contracts_landing/status/A/yeartype/B/year/116
+TransactionsData-1.csv
+
+
+DEALING WITH NUMBERS
+
+EDIT COLUMN: change type
+Arrow left of column name "Original Amount" > Edit cells > Common transforms > To number
+
+FACET
+Arrow left of column name "Original Amount" > Facet > Numeric facet
+Left panel box > histogram
+	you can slide the left & right edges
+
+SORT
+Arrow left of column name "Original Amount" > Sort > Sort
+	Sort cell values as text: "100" <  "9"
+	Sort cell values as text:  9    < 100
+
+#######################################################################
+
+DEALING (MORE) WITH TEXT
+
+COPY COLUMN
+Arrow left of column name "Purpose" > Edit column > Add column based on this column
+	New column name: cleaned_purpose
+	Expression: value,
+	Language: Google Refine Expression Language (GREL)
+
+FACET
+# How many facets are there originall?:
+Arrow left of column name "cleaned_purpose" > Facet > Text facet
+
+
+CLUSTER
+Arrow left of column name "cleaned_purpose" > Edit cells > Cluster and edit
+	# OpenRefine even knows when the order of words are different. It splits on whitespace and sorts the words.
+	Check the clusters that look right and leave/change the new entry values. There's also a Select All button on the bottom.
+Click Merge Selected & Re-Cluster
+Click Close
+
+FACET
+# Watch the number go down:
+Arrow left of column name "cleaned_purpose" > Facet > Text facet
+	set choice count limit: 3000
+
+
+CLUSTER
+Arrow left of column name "cleaned_purpose" > Edit cells > Cluster and edit
+	Method: nearest neighbor,
+	Distance Function: levenshtein,
+	...this might take a while.
+
+FACET
+# Watch the number go down:
+Arrow left of column name "cleaned_purpose" > Facet > Text facet
+
+
+CLUSTER
+Arrow left of column name "cleaned_purpose" > Edit cells > Cluster and edit
+	Method: key collision,
+	Keying Function: ngram-fingerprint,
+	Ngram size: 3
+
+FACET
+# Watch the number go down:
+Arrow left of column name "cleaned_purpose" > Facet > Text facet
+
+
+CHANGING VALUES OF A FACET
+
+Hover over a facet, you get the links edit include > edit > change the value
+
+
+ONLY SHOW THE ONES YOU WANT TO EDIT
+
+Click on one facet in the left panel box
+Arrow left of column name "cleaned_purpose" > Edit cells > Transform
+	Expression: the string you're trying to turn it into
